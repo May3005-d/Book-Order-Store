@@ -1,0 +1,48 @@
+import type { Book } from '@/types/book';
+
+export const sampleBooks: Book[] = [
+  {
+    id: 'tomorrow-tomorrow',
+    title: 'Tomorrow, and Tomorrow, and Tomorrow',
+    author: 'Gabrielle Zevin',
+    category: 'Fiction',
+    price: 18.9,
+    description: 'A moving story about friendship, creativity, and the games we play across a lifetime.',
+    color: '#D85F45',
+    mark: 'T',
+    stock: 12,
+  },
+  {
+    id: 'creative-act',
+    title: 'The Creative Act',
+    author: 'Rick Rubin',
+    category: 'Business',
+    price: 21,
+    description: 'A thoughtful guide to creating work that feels authentic and meaningful.',
+    color: '#234E70',
+    mark: 'A',
+    stock: 9,
+  },
+  {
+    id: 'atomic-habits',
+    title: 'Atomic Habits',
+    author: 'James Clear',
+    category: 'Mindfulness',
+    price: 16.5,
+    description: 'Practical strategies for building good habits and breaking bad ones.',
+    color: '#D6A43B',
+    mark: 'A',
+    stock: 18,
+  },
+  {
+    id: 'midnight-library',
+    title: 'The Midnight Library',
+    author: 'Matt Haig',
+    category: 'Fiction',
+    price: 14.75,
+    description: 'Between life and death there is a library, and within that library, endless lives.',
+    color: '#3D786C',
+    mark: 'M',
+    stock: 7,
+  },
+];

@@ -10,13 +10,23 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npm install
    ```
 
-2. Start the app
+2. Start the app on Android
 
    ```bash
-   npx expo start
+   npm start
    ```
 
-In the output, you'll find options to open the app in a
+The `npm start` command runs `expo start --android`, which asks Expo to start the
+Android emulator and open the app automatically. An Android Virtual Device must
+already be installed in Android Studio's Device Manager.
+
+If you want to start the development server without opening Android, run:
+
+```bash
+npx expo start
+```
+
+From the Expo terminal, you can also choose:
 
 - [development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
